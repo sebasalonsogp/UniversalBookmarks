@@ -1,0 +1,10 @@
+    {
+        "manifest_version": 3,
+        "name": "Bookmark Aggregator",
+        "description": "Bookmark aggregator, with a popup view for adding new bookmarks and a background service for fetching them.",
+        "version": "1.0",
+        "action": {
+          "default_popup": "Default.html",
+          "default_icon": "Images/Logo.png"
+    }
+}
