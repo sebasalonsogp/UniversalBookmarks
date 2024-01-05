@@ -1,6 +1,6 @@
 from django.core.management.base import BaseCommand
 from django.db import connection
-from backend.models import MyModel  # Replace 'myapp' and 'MyModel' with your actual app and model
+from bookmarkapp.models import MyModel  # Replace 'myapp' and 'MyModel' with your actual app and model
 
 class Command(BaseCommand):
     help = "Testing the database connection"
